@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             
+            .logo{  
+                    width:100px;
+                    height:50px;
+                    margin-left: 50px;
+                    margin-top: 25px;  
+
+            }
+              
+            
+             
+                .fa:hover{ 
+
+                     color:grey;
+
+                 } 
+               .sm1{ 
+                     border:1px black ;
+                      height:45px; 
+                       width:170px ;  
+                 background-color:red;
+                  margin-left:70px ;
+                 margin-top:30px ;
+                font-size:20px ;
+                 /* padding:15px; */
+                 padding-left:12px; 
+                 padding-top:9px ; 
+                 border-radius: 8px;
+               }
+               .sm1:hover{ 
+              background-color:blue;
+                    color:white;
+                 
+                 
+               }  
+               .sm2{ 
+                     border:1px black ;
+                      height:45px; 
+                       width:170px ;  
+                 background-color:red;
+                  margin-left:395px ;
+                 margin-top:-90px ;
+                font-size:20px ;
+                 /* padding:15px; */
+                 padding-left:50px; 
+                 padding-top:9px ; 
+                 border-radius: 8px;
+               }
+               .sm2:hover{ 
+              background-color:blue;
+                    color:white;
+                 
+                 
+               }      
+               .sm3{ 
+                     border:1px black ;
+                      height:45px; 
+                       width:170px ;  
+                 background-color:red;
+                  margin-left:700px ;
+                 margin-top:-90px ;
+                font-size:20px ;
+                 /* padding:15px; */
+                 padding-left:30px; 
+                 padding-top:10px ; 
+                 border-radius: 8px;
+               }
+               .sm3:hover{ 
+              background-color:blue;
+                    color:white;
+                 
+                 
+               }       
+                
+               .sm4{ 
+                     border:1px burlywood ;
+                      height:45px; 
+                       width:170px ;  
+                 background-color:red;
+                  margin-left:1020px ;
+                 margin-top:-90px ;
+                font-size:20px ;
+                 /* padding:15px; */
+                 padding-left:30px; 
+                 padding-top:10px ; 
+                 border-radius: 8px;
+               }
+               .sm4:hover{ 
+              background-color:white;
+                    color:red;
+                 
+                 
+               }  
+               .now{ 
+
+                    border:1px white;
+                     width:130px; 
+                      height:40px;
+                       background-color:brown ;
+                        position: relative; 
+                        left:-870px;
+                         top:60px;
+                        padding:10px;
+                       color:white;
+               }
+               .now:hover{
+                        background-color:red;
+                         color:black;
+                  
+
+               }  
+                     
+
+                  
+        </style> 
+       
+        
+        
+</head>
+<body>
+   
+      
+    
+      
+
+     <nav class="navbar navbar-expand-lg -tertiary" style="background-color:bisque;font-size:25px; ">
+      <div class="container-fluid"> 
+        <nav class="navbar bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="data:image/png;base64,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" alt="ishafoundation logo" style=" background-color:bisque; border-radius:5px;" width="80" height="50"></a></div>
+        </nav>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button><br><br>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            
+              <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sadhguru
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Man</a></li>
+                    <li><a class="dropdown-item" href="#">Mystic</a></li>
+                    <li><a class="dropdown-item" href="#">Misiion</a></li> 
+                    <li><a class="dropdown-item" href="#">Meet Sadhguru</a></li>
+                  </ul>
+                </li>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Wisdom
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sadhguru Exclusive</a></li>
+                  <li><a class="dropdown-item" href="#">Sadhguru Quotes</a></li>
+                  <li><a class="dropdown-item" href="#">Videos</a></li>
+                  <li><a class="dropdown-item" href="#">Articles</a></li>   
+                  <li><a class="dropdown-item" href="#">Audio</a></li>
+                  <li><a class="dropdown-item" href="#">Poem</a></li> 
+                  <li><a class="dropdown-item" href="#">All Topics</a></li>
+                  <li><a class="dropdown-item" href="#">Youth N Truth</a></li>
+                  <li><a class="dropdown-item" href="#">Sadhguru Rdaio</a></li>
+                </ul>
+              </li>
+          </li>
+          <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Yoga & Meditation
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Beginners Programs</a></li>
+                <li><a class="dropdown-item" href="#">Advanced PRograms</a></li>
+                <li><a class="dropdown-item" href="#">Additonal Programs</a></li>
+              </ul>
+            </li>
+        </li> 
+        <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> Monthly Events</a></li>
+              <li><a class="dropdown-item" href="#">Annual Events</a></li>
+              <li><a class="dropdown-item" href="#">Special Events</a></li>
+            </ul>
+          </li>
+      </li> 
+      <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            centers
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Main Centers</a></li>
+            <li><a class="dropdown-item" href="#"> International Centers</a></li>
+            <li><a class="dropdown-item" href="#">Consecrated Spaces</a></li>
+          </ul>
+        </li>
+    </li> 
+    <li class="nav-item dropdown">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Outreach
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Isha Health Solutions</a></li>
+          <li><a class="dropdown-item" href="#"> Residential programs</a></li>
+          <li><a class="dropdown-item" href="#">Non-Residential programs</a></li>
+        </ul>
+      </li>
+  </li> 
+            <li>
+            <i class="fa fa-search" style="font-size:36px; margin-left:50px;"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div> <br><br>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.wallpapersafari.com/22/2/YnaOj8.jpg" class="d-block h-100 w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://s01.sgp1.digitaloceanspaces.com/large/927625-52624-wklcqadeib-1488381982.jpg" class="d-block h-100 w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.sadhguru.org/d/46272/1649125624-isha_sadhguru_centers_dhyanalinga.jpg" class="d-block h-100 w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br>
+      <img class="design"style=" margin-left:500px;"src=" https://static.sadhguru.org/d/46272/1684481897-flower-divider-horizontal-orange.svg"/><br><br>
+     <s1 class="tech" style="margin-left:500px;font-size:25px;  ">Technologies for Wellbeing</s1><br>
+     <img  class="pic1"style=" margin-left:10px ; margin-top:10px;width:300px;height:300px; " src="https://static.sadhguru.org/d/46272/1633154928-1633154925305.jpg"/><br>
+     <s2 class="learn" style="margin-left:20px ;position: relative;top:10px;">Learn Proven Techniques and Practices</s2>
+     <div class="sm1" >Start My Journey</div>
+     <img class="pic2"style="margin-left:325px;margin-top:-525px;height:300px;" src="https://static.sadhguru.org/d/46272/1633154935-1633154934528.jpg"/><br> 
+     <s3 class="explore" style="margin-left:380px ; position: relative;top:-110px ;">Explore Sadhguru's knowledge</s3> 
+      <div class="sm2" ><a href="./template3.html">Explore</a></div>
+     <img class="pic3"style="height:300px;margin-left:640px;margin-top:-530px;" src="https://static.sadhguru.org/d/46272/1633154943-1633154941938.jpg "/><br> 
+     <s4 class="take" style="margin-left:710px ;position: relative;top:-110px ;">Take Part in Volunteering</s4> 
+     <div class="sm3" >Get Involved</div>
+   <img  class="pic4" style=" height:300px;margin-left:955px;margin-top:-540px   ;"src="https://static.sadhguru.org/d/46272/1633154950-1633154949315.jpg"/>
+   <s5 class="experience" style="margin-left:960px ;position: relative;top:-110px ;">Experience Powerfully Consecrated Spaces</s5>
+   <div class="sm4" >Find Out More</div><br>
+    <img  class="pic5" style="width:1260px ;" src="https://static.sadhguru.org/d/46272/1697226648-ieo_home_banner.jpg"/> 
+     <img  class="pic6"  style="height:300px;width:400px;margin-left:450px ;margin-top:50px;" src="https://static.sadhguru.org/d/46272/1701905415-dec-7-20130914_chi_0189-c-e.jpg"/> 
+     <s6 class="irritation" style="margin-left: 430px;position: relative; top:10px;font-size: 25px; ">Irritation, anger, hate, and rage are just</s6><br>
+      <s7  class="progression" style="margin-left: 400px;position: relative; top:5px;font-size: 25px;" >progressions. If you feel the mildest sense of </s7><br>
+       <s8 class="irritation"  style="margin-left: 400px;position: relative; top:5px;font-size: 25px;" >irritation, that is what you need to work on.</s8><br>
+     <s9 class="quote"style="margin-left:500px;position:relative;top:40px;" >Sadhguru Quote - December 10, 2023</s9><br><br><br><br> 
+      
+
+     <div class="row row-cols-1 row-cols-md-3 g-4 ">
+      <div class="col">
+        <div class="card">
+          <img src="https://static.sadhguru.org/d/46272/1702009878-use-next-12-months-to-transform.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harness This Celestial Event for Your Growth |.. </h5>
+            <p class="card-text">Sadhguru explains how the phenomenon of solar flares impact all life on earth, and how one can prepare oneself well and use this upsurge in energy to accelerate their spiritual growth tremendously. </p>
+             <p>Dec10, 2023</p> 
+             <i class="fa fa-share-alt" style="margin-left: 300px; position: relative;top:-30px;" style="font-size:24px"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.sadhguru.org/d/46272/1701576268-sadhguru-on-narayana-murthy-70hr-work-week-advice.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Narayana Murthy's 70hr or Bill Gates 3 |.. </h5>
+            <p class="card-text">Sadhguru responds to a question about work-life balance and looks at recent remarks by NR Narayana Murthy and Bill Gates regarding the number of hours young professionals should be working every week.
+              <p>Dec10, 2023</p> 
+              <i class="fa fa-share-alt" style="margin-left: 300px; position: relative;top:-30px;" style="font-size:24px"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <s10 class="latest" style="margin-left: 1000px; position:relative; top:-400px;font-size:60px;color:burlywood;">Latest</s10>
+      <s10 class="wisdom" style="margin-left: 950px;position:relative; top:-450px;font-size:60px;color:burlywood;">Wisdom of</s10>
+      <s10 class="sadhguru" style="margin-left: 950px;position:relative; top:-500px;font-size:60px;color:burlywood;">Sadhguru</s10>
+       
+
+      <div class="card" style="width: 400px;position: relative;top:-200px;left:20px;">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgsjGFRngeCig1vuUJX504hJqodH_SsW3JPuqJfwx0w-7Z50M_" class="card-img-top w-130" alt="...">
+        <div class="card-body">
+           <s11 class="card1" style="position: relative; top:-20px;font-size:34px;color: burlywood;">Samayama,Dec 2023(English)</s11>
+          <h5 class="card-title">13-20 Dec 2023</h5>
+          <p class="card-text">ISHA yoga center,coimbature</p> 
+
+          <a href="./template2.html" class="btn btn-primary">Register Now</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 400px;position: relative;top:-200px ;left:40px;">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgsjGFRngeCig1vuUJX504hJqodH_SsW3JPuqJfwx0w-7Z50M_" class="card-img-top" alt="...">
+        <div class="card-body">
+          <s12 class="card1" style="position: relative; top:-20px;font-size:34px;color: burlywood;">Samayama,Dec 2023(Tamil)</s12>
+          <h5 class="card-title">13-20 Dec 2023</h5>
+          <p class="card-text">ISHA yoga center,coimbature</p>
+          <a href="./template2.html" class="btn btn-primary">Register Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 400px;position: relative;top:-200px ;left:60px;">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgsjGFRngeCig1vuUJX504hJqodH_SsW3JPuqJfwx0w-7Z50M_" class="card-img-top" alt="...">
+        <div class="card-body">
+          <s12 class="card1" style="position: relative; top:-20px;font-size:34px;color: burlywood;">Samayama,Dec 2023(Telugu)</s12>
+          <h5 class="card-title">13-20 Dec 2023</h5>
+          <p class="card-text">ISHA yoga center,coimbature</p>
+          <a href="./template2.html" class="btn btn-primary">Register Now</a>
+        </div>
+      </div>
+       <s13  class="sub" style="position: relative;left:100px;top:-160px;font-size:25px; color:brown;">Subscribe Us On</s13>
+      <img  class="pic7" style="height:100px;width:150px;position: relative;left:-300px;top:-100px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqgjzM4KMxmc8NKj5PdbIVpxCi1CMFGN_EWg&usqp=CAU"/>
+     <p class="Subscribe" style="position: relative;left:-550px;color:brown ;">Join 1.2 Million people from around the world, get wisdom articles delivered in the mailbox for free.</p>
+     <div class="now">Subscribe Now</div>
+      <s14 class="contat" style="position: relative;left:570px;top:-273px;font-size:25px;color: brown;">Contact Us</s14>
+      <i class="fa fa-map-marker" style="font-size:30px ;position: relative;top:-200px;left:100px;"></i>
+       <s15 class="india" style=" position: relative;left:-280px;top:-200px;color:brown;" >India
+        Isha Yoga Centre,<br>
+        Velliangiri Foothills,<br>
+        Ishana Vihar Post,<br>
+        Coimbatore, Tamil Nadu - 641114</s15> 
+        <i class="fa fa-phone" style="font-size:30px ;position: relative;left:525px;top:-200px;"></i>
+         <s16 class="call" style="position: relative;left:145px;top:-200px;color:brown;">+91 8300083111,
+          04224283111,<br>
+          04223583111</s16> 
+          <i class="fa fa-envelope" style="font-size:24px ;position: relative;left:-330px;top:-120px"></i> 
+          <s17 class="info"style="position: relative;left:580px;top:-190px; color: brown;">info@ishafoundation.org</s17> 
+          <s18 class="find" style=" position:relative;left:500px;top:-470px;font-size:25px;color:brown;">Find us on social Media</s18>
+           
+          <i class="fa fa-facebook-square" style="font-size:36px; position: relative;top:-390px;left:60px"></i>
+           
+          <i class="fa fa-instagram" style="font-size:36px;position: relative;top:-380px;left:917px;"></i>
+            
+          <i class="fa fa-twitter" style="font-size:36px; position: relative;left:600px;top:-450px;"></i>
+           
+          <i class="fa fa-linkedin" style="font-size:36px ;position: relative;left:300px;top:-450px;"></i>  
+
+          <i class="fa fa-youtube-play" style="font-size:36px;position: relative;left:1030px;top:-440px ;"></i>
+
+
+  </body>
+</html>
